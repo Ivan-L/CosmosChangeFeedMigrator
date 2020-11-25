@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>dotnet-CosmosChangeFeedMigrator-E195728F-C7FC-4E9A-AE8D-26EDB39FB5A7</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.13.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.10" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.9" />
+    </ItemGroup>
+</Project>
